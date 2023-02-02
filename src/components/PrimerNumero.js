@@ -1,5 +1,3 @@
-
-
 function PrimerNumero({aRandom}) {
     return (
         <div className="row">
