@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/juego-multiplicar/static/css/main.f71b4887.css",
-    "main.js": "/juego-multiplicar/static/js/main.710dba34.js",
+    "main.js": "/juego-multiplicar/static/js/main.53d7f5a0.js",
     "index.html": "/juego-multiplicar/index.html",
     "main.f71b4887.css.map": "/juego-multiplicar/static/css/main.f71b4887.css.map",
-    "main.710dba34.js.map": "/juego-multiplicar/static/js/main.710dba34.js.map"
+    "main.53d7f5a0.js.map": "/juego-multiplicar/static/js/main.53d7f5a0.js.map"
   },
   "entrypoints": [
     "static/css/main.f71b4887.css",
-    "static/js/main.710dba34.js"
+    "static/js/main.53d7f5a0.js"
   ]
 }
