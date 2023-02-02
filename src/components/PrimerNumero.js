@@ -1,4 +1,6 @@
+
 function PrimerNumero({aRandom}) {
+
     return (
         <div className="row">
           <span id="a">{aRandom}</span>

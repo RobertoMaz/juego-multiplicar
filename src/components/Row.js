@@ -1,4 +1,5 @@
 function Row({arrBluf, handleClick, square}) {
+
     return (
         <>
             <div className="row">
@@ -15,4 +16,5 @@ function Row({arrBluf, handleClick, square}) {
     );
     
 }
+
 export default Row;

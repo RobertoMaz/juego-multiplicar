@@ -49,4 +49,5 @@ function ResultsRow({respuesta, aRandom, setMessage, setPlayAgain,setArrBluf,set
     </>
     );
 }
+
 export default ResultsRow;

@@ -10,18 +10,19 @@ function Results({aRandom, bRandom, setARandom, setBRandom}){
         const [respuesta, setRespuesta] = useState(aRandom * bRandom);
 
         function handlePlayAgain() {
+            
+            let a = Math.round(Math.random() * 9 + 1);
+            let b =  Math.round(Math.random() * 9 + 1);
+            
+            setARandom(a);
+            setBRandom(b);
+            setRespuesta(b * a);
             setArrBluf([]);
             setSquare("square");
             setMessage("Elige la respuesta correcta");
             setPlayAgain(false);
-        
-            let a = Math.round(Math.random() * 9 + 1);
-            let b =  Math.round(Math.random() * 9 + 1);
-        
-            setARandom(a);
-            setBRandom(b);
-            setRespuesta(b * a);
-          }          
+        } 
+
     return (
         <>
             <div className="row">
@@ -44,8 +45,9 @@ function Results({aRandom, bRandom, setARandom, setBRandom}){
                 aRandom={aRandom}
                 setSquare={setSquare}
                 square={square}
-                />
+            />
         </>
     );
 }
+
 export default Results;

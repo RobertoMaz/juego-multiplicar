@@ -21,7 +21,7 @@ function App() {
           setARandom={setARandom}
           setBRandom={setBRandom}  
           aRandom={aRandom}
-        />              
+        />               
       </div> 
     </div>
   );
