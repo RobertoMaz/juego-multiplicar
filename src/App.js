@@ -9,6 +9,10 @@ function App() {
   let a = Math.round(Math.random() * 9 + 1);
   let b =  Math.round(Math.random() * 9 + 1); 
   
+
+
+  
+  
   const [aRandom, setARandom] = useState(a);
   const [bRandom, setBRandom] = useState(b);
  
