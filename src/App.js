@@ -16,9 +16,7 @@ function App() {
   let b =  Math.round(Math.random() * 9 + 1);
   
 
-  
- 
-  
+
   
   
   const [aRandom, setARandom] = useState(a);
