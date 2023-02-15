@@ -16,18 +16,7 @@ function Results({
         setPlayAgain
 
     }) {
-    
-    
 
-    
-    
-
-
-    
-   
-    
-    
-    
     
     
     return (
