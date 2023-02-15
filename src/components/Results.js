@@ -1,28 +1,24 @@
 import { useState } from "react";
 import ResultsRow from "./ResultsRows";
 
-function Results({aRandom, bRandom, setARandom, setBRandom}){
+function Results({
+        respuesta,
+        start, 
+        handlePlayAgain, 
+        setMessage, 
+        message, 
+        arrBluf, 
+        setArrBluf, 
+        aRandom, 
+        setSquare,
+        square,
+        playAgain,
+        setPlayAgain
 
-        const [message, setMessage] = useState("Elige la respuesta correcta");
-        const [arrBluf, setArrBluf] = useState([]);
-        const [square, setSquare] = useState("square");
-        const [playAgain, setPlayAgain] = useState(false);
-        const [respuesta, setRespuesta] = useState(aRandom * bRandom);
+    }) {
 
-        function handlePlayAgain() {
-            
-            let a = Math.round(Math.random() * 9 + 1);
-            let b =  Math.round(Math.random() * 9 + 1);
-            
-            setARandom(a);
-            setBRandom(b);
-            setRespuesta(b * a);
-            setArrBluf([]);
-            setSquare("square");
-            setMessage("Elige la respuesta correcta");
-            setPlayAgain(false);
-        } 
-
+    
+    
     return (
         <>
             <div className="row">
@@ -36,6 +32,10 @@ function Results({aRandom, bRandom, setARandom, setBRandom}){
                     onClick={handlePlayAgain}
                 >{playAgain}</div>
             </div>
+        
+
+        
+
             <ResultsRow 
                 respuesta={respuesta}
                 setMessage={setMessage}

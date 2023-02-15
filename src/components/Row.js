@@ -13,8 +13,7 @@ function Row({arrBluf, handleClick, square}) {
                 <div className={square} onClick={handleClick}>{arrBluf[5]}</div>
             </div>
         </>
-    );
-    
+    ); 
 }
 
 export default Row;
